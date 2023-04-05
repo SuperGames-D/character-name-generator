@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Character Name Generator</title>
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/SuperGames-D/character-name-generator/index/cng-icon.ico">
+    <style>
+body {
+height: 100vh;
+	@include flex-center-hv;
+	flex-direction: column;
+	background-color: #fff;
+	background-image: url('https://raw.githubusercontent.com/SuperGames-D/character-name-generator/index/cng-bg.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+    }
+    </style>
+        <style>
+.center {
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div class="center">
+<h1>
+<p> <img src="https://raw.githubusercontent.com/SuperGames-D/character-name-generator/index/cng-logo.png" alt="Character Name Generator" width="750" height="58"> <p>
+
+<p id="ran"></p>
+
+<script>
+let text;
+if (Math.random() < 0.1) {
+  text = "The";
+} else if (Math.random() < 0.2) {
+  text = "Super";
+} else if (Math.random() < 0.3) {
+  text = "Big";
+} else if (Math.random() < 0.4) {
+  text = "Fearless";
+} else {
+  text = "Mr.";
+}
+document.getElementById("ran").innerHTML = text;
+</script>
+<p id="ran2"></p>
+<script>
+let text2;
+if (Math.random() < 0.1) {
+  text2 = "potato";
+} else if (Math.random() < 0.15) {
+  text2 = "cheese";
+} else if (Math.random() < 0.2) {
+  text2 = "cat";
+} else if (Math.random() < 0.25) {
+  text2 = "hero";
+} else if (Math.random() < 0.3) {
+  text2 = "car";
+} else if (Math.random() < 0.35) {
+  text2 = "zebra";
+} else if (Math.random() < 0.4) {
+  text2 = "idiot";
+} else if (Math.random() < 0.45) {
+  text2 = "flat-earther";
+} else if (Math.random() < 0.5) {
+  text2 = "YOU";
+} else {
+  text2 = "kid";
+}
+document.getElementById("ran2").innerHTML = text2;
+</script>
+<p id="ran3"></p>
+<script>
+let text3;
+if (Math.random() < 0.1) {
+  text3 = "who liked apples";
+} else if (Math.random() < 0.15) {
+  text3 = "who could fly";
+} else if (Math.random() < 0.2) {
+  text3 = "dominator";
+} else if (Math.random() < 0.25) {
+  text3 = "lord";
+} else if (Math.random() < 0.3) {
+  text3 = "who didn't like cheese";
+} else if (Math.random() < 0.35) {
+  text3 = "destroyer";
+} else if (Math.random() < 0.4) {
+  text3 = "who created this website";
+} else {
+  text3 = "man";
+}
+document.getElementById("ran3").innerHTML = text3;
+</script>
+
+<a href="https://supergames-d.github.io/character-name-generator" target="_self">
+    <img src="https://raw.githubusercontent.com/SuperGames-D/character-name-generator/index/new.png" alt="scratch" width="120" height="58"> </a>
+<p> <img src="https://raw.githubusercontent.com/SuperGames-D/character-name-generator/index/cng-logo.png" alt="" width="0" height="58"> <p>
+</h1>
+<h3>
+<p> This is my character name generator! It's probably useless,
+<p> but who cares. You can generate a random character name,
+<p> which you're supposed to use for a story or something, but
+<p> I think the best part is to just generate random names and
+<p> laugh because of how stupid they are.
+</h3>
+<h2>
+Website by SuperGames-
+</h2>
+</div>
+</body>
+</html>
