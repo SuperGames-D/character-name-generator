@@ -13,4 +13,4 @@ laugh because of how stupid they are.
 Note: In the files, cng stands for Character Name Generator.
 
 ## Want to try the website?
-It is available [here](https://supergames-d.github.io/character-name-generator/)
+You can go [here](https://supergames-d.github.io/character-name-generator/)
